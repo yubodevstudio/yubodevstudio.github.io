@@ -1,4 +1,4 @@
-name: Deploy Hexo User Website
+name: Deploy
 
 on:
   push:
@@ -6,34 +6,38 @@ on:
       - master  # 根据您的主分支名称进行修改
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
+    name: A job to deploy blog.
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
+    - name: Checkout
+      uses: actions/checkout@v1
       with:
-        node-version: 16  # 根据您的项目要求选择 Node.js 版本
-
-    - name: Install Hexo CLI
-      run: npm install -g hexo-cli
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Generate Hexo site
-      run: hexo generate
-
-    - name: Deploy to GitHub Pages
+        submodules: true # Checkout private submodules(themes or something else).
+    
+    # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
+    - name: Cache node modules
+      uses: actions/cache@v1
+      id: cache
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: npm ci
+    
+    # Deploy hexo blog website.
+    - name: Deploy
+      id: deploy
+      uses: sma11black/hexo-action@v1.0.3
+      with:
+        deploy_key: ${{ secrets.HEXO_DEPLOY_PRI }}
+        user_name: your github yubodevstudio  # (or delete this input setting to use bot account)
+        user_email: your github yubodevstudio@gmail.com  # (or delete this input setting to use bot account)
+        commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
+    # Use the output from the `deploy` step(use for test action)
+    - name: Get the output
       run: |
-        git config user.name "yubo"
-        git config user.email "yubodevstudio@gmail.com"
-        git clone --branch=gh-pages https://github.com/${{ github.repository }}.git gh-pages
-        cd gh-pages
-        cp -r ../public/* ./
-        git add .
-        git commit -m "Update Hexo User Website"
-        git push origin gh-pages
+        echo "${{ steps.deploy.outputs.notify }}"
