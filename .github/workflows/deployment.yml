@@ -28,6 +28,7 @@ jobs:
       run: |
         mkdir gh-pages
         mv public/* gh-pages/
+        git fetch
         git checkout gh-pages
         git pull origin gh-pages
         cp -r gh-pages/. public/
