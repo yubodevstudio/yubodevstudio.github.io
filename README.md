@@ -1,2 +1,0 @@
-# yubodevstudio.github.io
-blog

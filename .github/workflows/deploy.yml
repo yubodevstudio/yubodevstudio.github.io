@@ -1,0 +1,33 @@
+name: Deploy Hexo to username.github.io
+
+on:
+  push:
+    branches:
+      - master  # 触发条件：当你的主分支有推送时
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Hexo site
+        run: npm run build  # 可能需要根据你的项目配置修改这一行
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy Hexo"
+          git push -f "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" main:gh-pages
