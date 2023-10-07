@@ -5,6 +5,12 @@ comment: 'waline'
 
 ---
 
+
+<!-- 
+- StackOverflow：[https://stackoverflow.com/users/22510112/yubo](https://stackoverflow.com/users/22510112/yubo)
+- Twitter: [https://twitter.com/yubodevstudio](https://twitter.com/yubodevstudio) 
+- -->
+  
 <div class="markdown-body">
 
 
@@ -17,26 +23,19 @@ comment: 'waline'
 - WeChat:  `yubostudio`
 - Email: [yubodevstudio@gmail.com](mailto:yubodevstudio@gmail.com)
 - Github: [https://github.com/yubodevstudio](https://github.com/yubodevstudio)
-- StackOverflow：[https://stackoverflow.com/users/22510112/yubo](https://stackoverflow.com/users/22510112/yubo)
-- Twitter: [https://twitter.com/yubodevstudio](https://twitter.com/yubodevstudio)
+
 
 # 职业经历
 
-## 研发管理岗 <time> 2017.09 - 至今 </time>
-
-<location>某银行信息科技部</location>
-
-- 前端开发小组技术负责人：团队规模10人，负责团队技术管理、项目规划、业务需求管理分配、团队成员发展与绩效管理、候选人面试。
+## 某小型软件开发公司  前端团队负责人 <time> 2017.09 - 至今 </time>
+- 前端团队负责人：团队规模10人，负责团队技术管理、项目规划、业务需求管理分配、团队成员发展与绩效管理、候选人面试。
 - 推动项目管理后台从JSP迁移至React。
-- 负责手机银行前端管理，参与前端代码审查、确保代码质量。
-- 优化手机银行原生与H5交互，优化页面加载性能，提高用户体验。
-- 负责协调跨条线、部门沟通事宜。
+- 负责前端管理，参与前端代码审查、确保代码质量。
+- 优化手机APP原生与H5交互，优化页面加载性能，提高用户体验。
+- 负责协调跨条线沟通事宜。
 
 
-## 前端工程师 <time> 2015.04 - 2017.08 </time>
-
-<location>阿里巴巴-阿里妈妈事业部</location>
-
+## 阿里巴巴 前端工程师 <time> 2015.04 - 2017.08 </time>
 - 负责广告投放管理平台前端开发：设计并实现商家、媒体使用的推广管理平台前端模块。为媒体提供推广位、创意、订单管理，未上架提供推广投放管理。让广告主、媒体便捷管理流量实现收入变现及引流。
 - 负责营销平台前端开发：设计并实现钻石展位、万堂书院等阿里巴巴营销平台前端模块设计与实现，所有站点高度还原设计稿并采用响应式设计。抽象、积累营销平台常用功能形成项目模板，实现新平台快速开发上线。
 - 通用审核系统前端设计与开发：根据业务特点提取公共组件、页面，实现审核系统快速搭建，对于已支持的审核组件，根据后端数据自动生成对应审核系统。
