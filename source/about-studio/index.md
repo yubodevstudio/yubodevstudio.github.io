@@ -24,7 +24,7 @@ banner_mask_alpha: 0.5
 
 # 案例介绍（部分）
 
-- RunJS：对标CodePen的前端代码在线创作与分享平台（React、Express） https://runjs.work
+- 团队自研RunJS：对标CodePen的前端代码在线创作与分享平台（React、Express） https://runjs.work
 - Keevo Wallet：基于Electron的虚拟货币硬件钱包桌面客户端（React、Electron） https://www.keevowallet.com
 - 表单编辑器：提供表单编辑功能，实现表单自动生成、渲染、数据收集、展现，支持近20种组件（React、Antd）
 - 疫苗系统Chrome插件：通过Chrome插件增强现有疫苗接种系统功能（Chrome插件、React、Antd）
