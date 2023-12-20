@@ -6,24 +6,24 @@ comment: 'waline'
 ---
 
 
-<!-- 
+<!--
 - StackOverflow：[https://stackoverflow.com/users/22510112/yubo](https://stackoverflow.com/users/22510112/yubo)
-- Twitter: [https://twitter.com/yubodevstudio](https://twitter.com/yubodevstudio) 
+- Twitter: [https://twitter.com/yubodevstudio](https://twitter.com/yubodevstudio)
 - -->
-  
+
 <div class="markdown-body">
 
 
 # 基本信息
 
-北京邮电大学计算机本硕，从事前端开发、管理8年。 百度、阿里担任前端开发3年，现任某银行前端开发组长。 
+北京邮电大学计算机本硕，从事前端开发、管理8年。 百度、阿里担任前端开发3年，现任某银行前端开发组长。
 
 长期承接优质前端项目或兼职，多年远程经验，协作团队成员来自美国、俄罗斯、新西兰、香港等。 更多信息可查看[团队介绍](/about-studio/)
 
 - WeChat:  `yubostudio`
 - Email: [yubodevstudio@gmail.com](mailto:yubodevstudio@gmail.com)
 - Github: [https://github.com/yubodevstudio](https://github.com/yubodevstudio)
-
+- <a href="https://stackoverflow.com/users/22510112/yubo"><img src="https://stackoverflow.com/users/flair/22510112.png" width="208" height="58" alt="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 
 # 职业经历
 

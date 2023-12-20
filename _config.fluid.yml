@@ -425,9 +425,7 @@ footer:
       <img src="/img/social/github.png" class="footer-media-icon" />
     </a>
     <i class="iconfont icon-love"></i>
-    <a href="https://stackoverflow.com/users/22510112/yubo" target="_blank" class="footer-media-icon" rel="nofollow noopener">
-      <img src="/img/social/stackoverflow.ico" class="footer-media-icon" />
-    </a>
+    <a href="https://stackoverflow.com/users/22510112/yubo"><img src="https://stackoverflow.com/users/flair/22510112.png" width="208" height="58" alt="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 
   '
 
@@ -446,9 +444,9 @@ footer:
   beian:
     enable: false
     # ICP证号
-    icp_text: 
+    icp_text:
     # 公安备案号，不填则只显示ICP
-    police_text: 
+    police_text:
     # 公安备案的编号，用于URL跳转查询
     police_code: 12345678
     # 公安备案的图片. 为空时不显示备案图片
