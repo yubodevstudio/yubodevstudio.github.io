@@ -78,6 +78,8 @@ tags: stackoverflow
 
 ## 2023-12-26：第一个回答+第三个徽章
 
-贡献第一个回答：[Div that expands only upwards and scrolls at max height](https://stackoverflow.com/questions/77712519/div-that-expands-only-upwards-and-scrolls-at-max-height/77714303#77714303)
+贡献第一个回答：[Div that expands only upwards and scrolls at max height](https://stackoverflow.com/q/77712519/22510112)
 
 编辑答案意外获得<a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>徽章
+
+详细记录：[2023-12-26: 第一个回答+第三个徽章](stackoverflow/stackoverflow-2023-12-26-第一个回答-第三个徽章.md)
