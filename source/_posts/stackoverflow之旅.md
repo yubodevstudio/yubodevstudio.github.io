@@ -26,7 +26,8 @@ tags: stackoverflow
 
 ## 徽章记录
 - <a href="https://stackoverflow.com/help/badges/2600/informed?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Informed</a>: 阅读全部[tour](https://stackoverflow.com/tour)页面。2023-09-06获得。
-- <a href="" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>: 填写个人简介“自我介绍”。2023-12-20获得。
+- <a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>: 填写个人简介“自我介绍”。2023-12-20获得。
+- <a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>：编辑第一个答案，2023-12-26获得。
 
 # 声望（reputation）获取计划
 
@@ -74,3 +75,9 @@ tags: stackoverflow
 确定开启StackOverflow系列文章，搭建本篇文章作为总结+汇总。
 
 通过填写个人简介“自我介绍”获得<a href="" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>徽章。
+
+## 2023-12-26：第一个回答+第三个徽章
+
+贡献第一个回答：[Div that expands only upwards and scrolls at max height](https://stackoverflow.com/questions/77712519/div-that-expands-only-upwards-and-scrolls-at-max-height/77714303#77714303)
+
+编辑答案意外获得<a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>徽章
