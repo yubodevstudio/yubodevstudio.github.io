@@ -1,5 +1,5 @@
 ---
-title: 'stackoverflow 2023-12-26: 第一个回答+第三个徽章'
+title: '2023-12-26：stackoverflow第一个回答+第三个徽章'
 date: 2023-12-26 00:47:10
 tags: stackoverflow
 categories:
@@ -76,3 +76,16 @@ categories:
 2. 聊天记录`flex-direction: column-reverse;`实现从下向上滚动显示聊天记录。
 
 编辑答案意外获得<a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>徽章
+
+# 2023-12-28 更新声望+徽章
+
+
+![2023-12-28声望+徽章信息](../../img//stackoverflow//2023-12-26/WX20231228-222942@2x.png)
+
+今天登录账号发现通知栏声望徽章都有增加，应该是前天回答的问题带来的，进入个人主页查看。
+
+![2023-12-28个人主页](../../img//stackoverflow//2023-12-26/WX20231228-223914@2x.png)
+
+- 解锁新特权[talk in chat(聊天室)](https://stackoverflow.com/help/privileges/chat)：解锁要求20声望，聊天室主要用于实时交流及对于较不结构化、随意（但仍然大致与主题相关）的对话
+- 获得<a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望。
+- 声望+35

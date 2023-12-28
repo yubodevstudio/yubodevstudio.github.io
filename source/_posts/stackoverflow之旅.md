@@ -28,7 +28,8 @@ tags: stackoverflow
 - <a href="https://stackoverflow.com/help/badges/2600/informed?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Informed</a>: 阅读全部[tour](https://stackoverflow.com/tour)页面。2023-09-06获得。
 - <a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>: 填写个人简介“自我介绍”。2023-12-20获得。
 - <a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>：编辑第一个答案，2023-12-26获得。
-
+- <a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望,2023-12-27获得。
+-
 # 声望（reputation）获取计划
 
 声望代表你在社区的贡献和地位，声望越高，对应权限越高。
@@ -65,6 +66,7 @@ tags: stackoverflow
 这里只记录有里程碑意义的积分获得时间，比如第一个积分、第一个主动积分、50、100、500、1000等。
 
 - 1：2023-09-06注册获得
+- 36：2023-12-26第一个回答获得
 
 # 流水记录
 
@@ -82,4 +84,13 @@ tags: stackoverflow
 
 编辑答案意外获得<a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>徽章
 
-详细记录：[2023-12-26: 第一个回答+第三个徽章](stackoverflow/stackoverflow-2023-12-26-第一个回答-第三个徽章.md)
+详细记录：[2023-12-26: 第一个回答+第三个徽章](http://yubodevstudio.com/2023/12/26/stackoverflow/2023-12-26：stackoverflow第一个回答-第三个徽章/)
+
+## 2023-12-28 更新声望+徽章
+
+- 声望：+35到达36
+- 徽章：4
+- 解锁新特权[talk in chat(聊天室)](https://stackoverflow.com/help/privileges/chat)：解锁要求20声望，聊天室主要用于实时交流及对于较不结构化、随意（但仍然大致与主题相关）的对话
+- 获得<a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望。
+
+详细记录：[2023-12-28: 记录](http://yubodevstudio.com/2023/12/26/stackoverflow/2023-12-26：stackoverflow第一个回答-第三个徽章/)
