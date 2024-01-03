@@ -94,3 +94,9 @@ tags: stackoverflow
 - 获得<a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望。
 
 详细记录：[2023-12-28: 记录](http://yubodevstudio.com/2023/12/26/stackoverflow/2023-12-26：stackoverflow第一个回答-第三个徽章/)
+
+## 2024-01-03：更新声望
+
+- 回答：+2到达3
+- 声望：+25到达61
+- 徽章：4
