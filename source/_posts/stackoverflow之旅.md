@@ -29,7 +29,10 @@ tags: stackoverflow
 - <a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>: 填写个人简介“自我介绍”。2023-12-20获得。
 - <a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>：编辑第一个答案，2023-12-26获得。
 - <a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望,2023-12-27获得。
+- <a href="https://stackoverflow.com/help/badges/6/supporter?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Supporter</a>徽章：点赞获得,2024-02-27获得。
 -
+
+
 # 声望（reputation）获取计划
 
 声望代表你在社区的贡献和地位，声望越高，对应权限越高。
@@ -100,3 +103,10 @@ tags: stackoverflow
 - 回答：+2到达3
 - 声望：+25到达61
 - 徽章：4
+
+
+## 2024-02-27：更新声望
+
+- 回答：+2到达5
+- 声望：+25到达86
+- 徽章：+1达到5
