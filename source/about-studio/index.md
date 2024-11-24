@@ -11,9 +11,9 @@ banner_mask_alpha: 0.5
 
 # 团队介绍
 
-团队核心成员毕业于北京邮电大学、北京航空航天大学等高校，曾就职于阿里巴巴、百度、腾讯、360等一线互联网公司，均为具有8年以上工作经验的资深工程师(P6、T5)。
+团队核心成员毕业于华中科技大学、北京邮电大学、北京航空航天大学等高校，曾就职于阿里巴巴、百度、腾讯、360等一线互联网公司，均为具有8年以上工作经验的资深工程师(P6、T5)。
 
-熟练掌握HTML5、CSS3、JavaScript、TypeScript、React、Vue、微信小程序、Node.js等全栈技术。
+熟练掌握HTML5、CSS3、JavaScript、TypeScript、React、Vue、微信小程序、Node.js、Java等全栈技术。
 
 团队成员紧密合作多年，拥有顺畅的沟通和高度的责任心，长期承接项目整包或单个技术方栈外包，可提供对公发票。
 
@@ -24,8 +24,9 @@ banner_mask_alpha: 0.5
 
 # 案例介绍（部分）
 
+- 香港某企业智慧工地管理系统：Java、APP（uniapp）、Vue3、TypeScript
 - 团队自研RunJS：对标CodePen的前端代码在线创作与分享平台（React、Express） https://runjs.work
-- Keevo Wallet：基于Electron的虚拟货币硬件钱包桌面客户端（React、Electron） https://www.keevowallet.com
+- Keevo Wallet：基于Electron的硬件钱包桌面客户端（React、Electron） https://www.keevowallet.com
 - 表单编辑器：提供表单编辑功能，实现表单自动生成、渲染、数据收集、展现，支持近20种组件（React、Antd）
 - 疫苗系统Chrome插件：通过Chrome插件增强现有疫苗接种系统功能（Chrome插件、React、Antd）
 - 某招标平台：涵盖招投标全生命周期管理（Vue、Element UI）
