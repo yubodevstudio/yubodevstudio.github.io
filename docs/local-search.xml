@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>开源许可证完全指南</title>
+    <link href="/2024/05/28/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/"/>
+    <url>/2024/05/28/%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</url>
+    
+    <content type="html"><![CDATA[<h1 id="TLDR"><a href="#TLDR" class="headerlink" title="TLDR"></a>TLDR</h1><p>开源许可证是一组法律文件，规定了软件可以如何被使用、修改和分发。开源许可证的目的是促进软件的自由使用和共享，同时保护原作者的版权。</p><p>常见开源许可证：</p><ol><li><strong>GNU通用公共许可证（GPL）</strong>：要求任何基于GPL授权软件的衍生作品也必须使用GPL。</li><li><strong>Apache许可证2.0</strong>：提供了一种宽松的许可证，允许商业使用、修改和分发，同时保护原作者的版权。</li><li><strong>MIT许可证</strong>：一种非常宽松的许可证，允许几乎无限制地使用、修改和分发软件。</li><li><strong>BSD许可证</strong>：分为几种类型，其中最宽松的是2条款和3条款BSD许可证，允许自由使用和分发，但要求保留版权声明。</li><li><strong>Mozilla公共许可证（MPL）</strong>：要求修改后的代码必须以相同许可证发布，同时保护了贡献者的版权。</li></ol><h1 id="React许可证风波"><a href="#React许可证风波" class="headerlink" title="React许可证风波"></a>React许可证风波</h1><p>在开源软件领域，React 曾引发一场备受瞩目的许可证风波。React 作为极具影响力的 JavaScript 库，在前端开发中应用广泛，原本采用宽松的 MIT 许可证，允许开发者自由使用、修改与分发，仅需保留版权声明。</p><p>然而，Facebook 对其许可证的修改，添加专利授权条款，这看似细微的变动，却在开源社区激起千层浪。众多开发者担忧这会带来潜在专利纠纷，比如企业基于 React 构建大型商业应用时，可能面临 Facebook 日后依据该条款进行的专利限制或额外要求，影响项目商业运营与持续发展。</p><p>风波迅速扩散，开发者在技术论坛和社交媒体纷纷表达不满，开源组织重新审视 React 使用，一些项目暂停或重新评估技术选型，前端开发生态系统遭受冲击。</p><p>面对强大舆论压力，Facebook 经内部讨论与外部沟通，最终撤回修改，恢复 MIT 许可证。这一举措让开发者社区安心，React 地位也渐趋稳定。</p><p>此次风波为开源社区敲响警钟，凸显开源许可证的关键意义以及修改可能引发的连锁反应。开发者选开源软件时需重视许可证条款，开源项目维护者修改许可证时也应充分考量社区意见，以维护开源生态和谐稳定。</p><h1 id="开源许可证全解析：选择适合您项目的许可证"><a href="#开源许可证全解析：选择适合您项目的许可证" class="headerlink" title="开源许可证全解析：选择适合您项目的许可证"></a>开源许可证全解析：选择适合您项目的许可证</h1><p>在开源世界中，选择正确的许可证对于保护你的知识产权和确保软件的自由使用至关重要。本文将介绍当前Github默认支持的开源许可证，并探讨它们之间的主要区别。</p><h3 id="Apache-License-2-0"><a href="#Apache-License-2-0" class="headerlink" title="Apache License 2.0"></a>Apache License 2.0</h3><ul><li><strong>主要内容与特点</strong>：允许商业使用、修改和分发，要求保留版权声明。提供专利授权，没有传染性。</li><li><strong>适用场景</strong>：适用于需要专利保护的大型项目。</li></ul><h3 id="GNU-General-Public-License-v3-0-GPLv3"><a href="#GNU-General-Public-License-v3-0-GPLv3" class="headerlink" title="GNU General Public License v3.0 (GPLv3)"></a>GNU General Public License v3.0 (GPLv3)</h3><ul><li><strong>主要内容与特点</strong>：强制要求修改后的软件也必须开源，具有强传染性。保护用户自由使用、修改和分发软件。</li><li><strong>适用场景</strong>：适用于希望确保软件及其衍生作品永远保持开源的项目。</li></ul><h3 id="MIT-License"><a href="#MIT-License" class="headerlink" title="MIT License"></a>MIT License</h3><ul><li><strong>主要内容与特点</strong>：非常宽松，允许自由使用、修改和分发，只需保留版权声明。</li><li><strong>适用场景</strong>：适用于希望最小化法律约束的项目。</li></ul><h3 id="BSD-2-Clause-“Simplified”-License"><a href="#BSD-2-Clause-“Simplified”-License" class="headerlink" title="BSD 2-Clause “Simplified” License"></a>BSD 2-Clause “Simplified” License</h3><ul><li><strong>主要内容与特点</strong>：宽松，只需保留版权声明，无其他要求。</li><li><strong>适用场景</strong>：适用于希望避免许可证的传染性的项目。</li></ul><h3 id="BSD-3-Clause-“New”-or-“Revised”-License"><a href="#BSD-3-Clause-“New”-or-“Revised”-License" class="headerlink" title="BSD 3-Clause “New” or “Revised” License"></a>BSD 3-Clause “New” or “Revised” License</h3><ul><li><strong>主要内容与特点</strong>：比2-Clause更严格，要求保留版权声明，并且禁止使用版权持有者的名称进行宣传。</li><li><strong>适用场景</strong>：适用于需要额外保护版权持有者名誉的项目。</li></ul><h3 id="Boost-Software-License-1-0"><a href="#Boost-Software-License-1-0" class="headerlink" title="Boost Software License 1.0"></a>Boost Software License 1.0</h3><ul><li><strong>主要内容与特点</strong>：允许专利授权，要求保留版权声明和许可声明。</li><li><strong>适用场景</strong>：适用于Boost库及其相关项目。</li></ul><h3 id="Creative-Commons-Zero-v1-0-Universal-CC0"><a href="#Creative-Commons-Zero-v1-0-Universal-CC0" class="headerlink" title="Creative Commons Zero v1.0 Universal (CC0)"></a>Creative Commons Zero v1.0 Universal (CC0)</h3><ul><li><strong>主要内容与特点</strong>：放弃版权，将作品置于公共领域，允许最自由的使用、修改和分发。</li><li><strong>适用场景</strong>：适用于希望作品被最自由使用的情况。</li></ul><h3 id="Eclipse-Public-License-2-0-EPL"><a href="#Eclipse-Public-License-2-0-EPL" class="headerlink" title="Eclipse Public License 2.0 (EPL)"></a>Eclipse Public License 2.0 (EPL)</h3><ul><li><strong>主要内容与特点</strong>：允许用户自由使用、修改和分发软件，要求保留版权声明。</li><li><strong>适用场景</strong>：适用于Eclipse基金会项目。</li></ul><h3 id="GNU-Affero-General-Public-License-v3-0-AGPLv3"><a href="#GNU-Affero-General-Public-License-v3-0-AGPLv3" class="headerlink" title="GNU Affero General Public License v3.0 (AGPLv3)"></a>GNU Affero General Public License v3.0 (AGPLv3)</h3><ul><li><strong>主要内容与特点</strong>：类似于GPLv3，但增加了网络服务条款，要求服务提供者也必须开源。</li><li><strong>适用场景</strong>：适用于提供网络服务的开源项目。</li></ul><h3 id="GNU-General-Public-License-v2-0-GPLv2"><a href="#GNU-General-Public-License-v2-0-GPLv2" class="headerlink" title="GNU General Public License v2.0 (GPLv2)"></a>GNU General Public License v2.0 (GPLv2)</h3><ul><li><strong>主要内容与特点</strong>：与GPLv3类似，但缺少一些改进。</li><li><strong>适用场景</strong>：适用于需要GPL保护但不希望采用GPLv3的项目。</li></ul><h3 id="GNU-Lesser-General-Public-License-v2-1-LGPLv2-1"><a href="#GNU-Lesser-General-Public-License-v2-1-LGPLv2-1" class="headerlink" title="GNU Lesser General Public License v2.1 (LGPLv2.1)"></a>GNU Lesser General Public License v2.1 (LGPLv2.1)</h3><ul><li><strong>主要内容与特点</strong>：比GPL更宽松，允许将库与私有软件一起使用。</li><li><strong>适用场景</strong>：适用于开发库或组件，希望被广泛用于私有软件的项目。</li></ul><h3 id="Mozilla-Public-License-2-0-MPL-2-0"><a href="#Mozilla-Public-License-2-0-MPL-2-0" class="headerlink" title="Mozilla Public License 2.0 (MPL 2.0)"></a>Mozilla Public License 2.0 (MPL 2.0)</h3><ul><li><strong>主要内容与特点</strong>：允许用户自由使用、修改和分发软件，包含“或更高版本”条款。</li><li><strong>适用场景</strong>：适用于Mozilla项目。</li></ul><h3 id="The-Unlicense"><a href="#The-Unlicense" class="headerlink" title="The Unlicense"></a>The Unlicense</h3><ul><li><strong>主要内容与特点</strong>：放弃版权，将作品置于公共领域，允许最自由的使用、修改和分发。</li><li><strong>适用场景</strong>：适用于希望作品被最自由使用的情况。</li></ul><p>选择合适的开源许可证对于确保你的项目能够按照你的意愿被使用和分发至关重要。希望本文能够帮助你更好地理解各种许可证，并做出明智的选择。欢迎在评论区分享你选择许可证的经验或问题。</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://opensource.org/licenses">开源许可证网站</a>：包含更多许可证及详细介绍。</li><li><a href="https://choosealicense.com/">choosealicense.com</a></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2024-02-27：stackoverflow回答5，声望86，徽章5</title>
+    <link href="/2024/02/27/stackoverflow/2024-02-27%EF%BC%9Astackoverflow%E5%9B%9E%E7%AD%945%EF%BC%8C%E5%A3%B0%E6%9C%9B86%EF%BC%8C%E5%BE%BD%E7%AB%A05/"/>
+    <url>/2024/02/27/stackoverflow/2024-02-27%EF%BC%9Astackoverflow%E5%9B%9E%E7%AD%945%EF%BC%8C%E5%A3%B0%E6%9C%9B86%EF%BC%8C%E5%BE%BD%E7%AB%A05/</url>
+    
+    <content type="html"><![CDATA[<h2 id="2024-02-27：更新声望"><a href="#2024-02-27：更新声望" class="headerlink" title="2024-02-27：更新声望"></a>2024-02-27：更新声望</h2><ul><li>回答：+2到达5</li><li>声望：+25到达86</li><li>徽章：+1达到5</li></ul><h1 id="第5个回答"><a href="#第5个回答" class="headerlink" title="第5个回答"></a>第5个回答</h1><p>题目:<a href="https://stackoverflow.com/a/78068129/22510112">How do I remove the blue square that appears when I click the button on small screens?</a></p><p>题主想去掉手机浏览器中点击button的时候显示一个表示选中状态的背景颜色。使用<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-tap-highlight-color">-webkit-tap-highlight-color</a>即可。</p><p>答案：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">button</span> &#123;<br>  -webkit-tap-highlight-<span class="hljs-attribute">color</span>: transparent;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>stackoverflow</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>stackoverflow</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2024-01-03：stackoverflow回答3，声望61，徽章4</title>
+    <link href="/2024/01/03/stackoverflow/2024-01-03%EF%BC%9Astackoverflow%E5%9B%9E%E7%AD%943%EF%BC%8C%E5%A3%B0%E6%9C%9B61%EF%BC%8C%E5%BE%BD%E7%AB%A04/"/>
+    <url>/2024/01/03/stackoverflow/2024-01-03%EF%BC%9Astackoverflow%E5%9B%9E%E7%AD%943%EF%BC%8C%E5%A3%B0%E6%9C%9B61%EF%BC%8C%E5%BE%BD%E7%AB%A04/</url>
+    
+    <content type="html"><![CDATA[<h2 id="2024-01-03：更新声望"><a href="#2024-01-03：更新声望" class="headerlink" title="2024-01-03：更新声望"></a>2024-01-03：更新声望</h2><ul><li>回答：+2到达3</li><li>声望：+25到达61</li><li>徽章：4</li></ul><h1 id="第2个回答"><a href="#第2个回答" class="headerlink" title="第2个回答"></a>第2个回答</h1><p>题目:<a href="https://stackoverflow.com/q/77731089/22510112">My CSS is my react app isn’t working as expected</a></p><p>题目如下：</p><blockquote><p>I’m working in this code branch. It’s a simple contacts app written with React as a self-study exercise.</p><p>My current problem is that when I click my add contact button, the add contact form in my modal is not styled correctly.<br>I’m trying to style it to modal-content from .&#x2F;css&#x2F;addContactModal.module.css which is called within AddContactModal.js. enter image description here Can someone advise me where I’ve gone wrong with respect to changing the modal form’s CSS?</p></blockquote><p>题主css文件中的class名字使用了<code>-</code>，在jsx中没有正确使用类名导致无法正确使用样式，这里我没细看题目理解错了以为整个样式没加载，还是要加强审题，没有被采纳，得到一个vote up，声望+10</p><blockquote><p>i have downloaded your code and it works well. your code is correct and style is appled to the correct element.</p><p>you can add below css to addContactModal.module.css</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.modal</span> <span class="hljs-selector-tag">input</span> &#123;<br>  <span class="hljs-attribute">background-color</span>: red;<br>&#125;<br></code></pre></td></tr></table></figure></blockquote><h1 id="第3个回答"><a href="#第3个回答" class="headerlink" title="第3个回答"></a>第3个回答</h1><p>题目：<a href="https://stackoverflow.com/q/77749582/22510112">Getting content overlapped while having fixed navbar</a></p><p>题目如下：</p><blockquote><p>I am trying to have a top text and navbar fixed at the top of the page and it should not scroll up with the content. I was able to fix it at the top by using position:fixed,but content is getting overlapped.</p><p>I used position: position:sticky, set margin and padding, but nothing helped.</p><p>I want to know how neatly I can achieve this. Please help</p></blockquote><p>题主想实现一个顶部导航fixed，效果但是内容被导航遮挡了。给内容设置一个顶部空白空间给导航栏即可，答案被采纳，声望+15</p><blockquote><p>add padding top to your content:</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment">#content &#123;</span><br> padding-top: <span class="hljs-number">80</span>px; <span class="hljs-regexp">/* height of your nav */</span><br>&#125;<br></code></pre></td></tr></table></figure></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>stackoverflow</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>stackoverflow</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>2023-12-26：stackoverflow第一个回答+第三个徽章</title>
+    <link href="/2023/12/26/stackoverflow/2023-12-26%EF%BC%9Astackoverflow%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%9E%E7%AD%94-%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%BE%BD%E7%AB%A0/"/>
+    <url>/2023/12/26/stackoverflow/2023-12-26%EF%BC%9Astackoverflow%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%9E%E7%AD%94-%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%BE%BD%E7%AB%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="第一个回答"><a href="#第一个回答" class="headerlink" title="第一个回答"></a>第一个回答</h1><p>题目:<a href="https://stackoverflow.com/q/77712519/22510112">Div that expands only upwards and scrolls at max height</a></p><p>题目如下：</p><blockquote><p>So I’m writing a frontend with react and I have a chat window that looks like so</p> <div id="outer-wrapper">   <div className = "chat-window-wrapper">     <div className="chat-window">       <!-- chat messages go here -->       </div>       <div className="chat-window-textarea"></div>     </div><pre><code class="hljs"> &lt;div id=&quot;element-below&quot;&gt;     &lt;!-- other stuff --&gt; &lt;/div&gt;</code></pre> </div>inside of the chat-window div I am using react to render messages from an observable array of messages, each message inside of chat-window looks like this:   <div>       {messageStr}   </div>I calculate the height of the chat-window-wrapper div based on the amount of messages in react and it works great, and I have a max height that the outer div can expand to that works great. I'm working on getting the inside of chat-window-wrapper to look right<p>I need the chat-window-textarea to remain anchored to the bottom, currently it sits kind of in the middle of the messages with a lot of empty space below it<br>I need chat-window-wrapper to only expand upwards, currently if I hit the max height the window starts to expand downwards and the element-below gets pushed off the screen. I want chat-window to scroll if chat-window-wrapper reaches max height<br>I’m collaborating on a larger project, so I’m currently treating outer-wrapper and element-below as a black box, but I can change the css on those elements if absolutely necessary</p><p>How would I go about doing this with css? I have tried a bunch of stuff, and I can post my janky css files if needed, but I think I’m going to have to start from scratch anyway. Any guidance is appreciated even if it’s just a small suggestion</p><p>Thanks</p></blockquote><p>题主大概是要实现一个聊天APP界面，消息从底部向上显示，底部有一个操作区域。使用flex布局即可。回答如下：</p><blockquote><p>it seems that you are working on a chat app which show messages from new to old and have a textarea to edit message.  for your question:</p><ol><li>make <code>chat-window-textarea</code> to the bottom: you can use flex layout in the  parent element <code>chat-widnow-wrapper</code> and set <code>flex-direction: column</code>, set chat-window to take the rest space;</li><li>make <code>chat-window-wrapper</code> to expand upwards: use flex and flex-direction: column-reverse;</li></ol><p>the css is below:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-class">.chat-window-wrapper</span> &#123;<br>  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>; <span class="hljs-comment">/* for demo */</span><br>  <span class="hljs-attribute">border</span>: <span class="hljs-number">1px</span> solid <span class="hljs-number">#eaeaea</span>; <span class="hljs-comment">/* for demo */</span><br>  <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;<br>  <span class="hljs-attribute">display</span>: flex;<br>  <span class="hljs-attribute">flex-direction</span>: column; <span class="hljs-comment">/* Reverse column to make it expand upwards */</span><br>&#125;<br><br><span class="hljs-selector-class">.chat-window</span> &#123;<br>  <span class="hljs-attribute">display</span>: flex;<br>  <span class="hljs-attribute">flex-direction</span>: column-reverse;<br>  <span class="hljs-attribute">overflow-y</span>: auto; <span class="hljs-comment">/* Enable vertical scroll if needed */</span><br>  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>demo: <a href="https://codepen.io/nxoglrnh-the-decoder/pen/eYXmWYW">https://codepen.io/nxoglrnh-the-decoder/pen/eYXmWYW</a></p></blockquote><p>大概意思是通过</p><ol><li>使用<code>flex-direction: column;</code>设置聊天记录和操作区上下分布，聊天记录<code>flex: 1;</code>占据全部剩余空间，确保操作区在底部</li><li>聊天记录<code>flex-direction: column-reverse;</code>实现从下向上滚动显示聊天记录。</li></ol><p>编辑答案意外获得<a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>徽章</p><h1 id="2023-12-28-更新声望-徽章"><a href="#2023-12-28-更新声望-徽章" class="headerlink" title="2023-12-28 更新声望+徽章"></a>2023-12-28 更新声望+徽章</h1><p><img src="/../../img/stackoverflow/2023-12-26/WX20231228-222942@2x.png" alt="2023-12-28声望+徽章信息"></p><p>今天登录账号发现通知栏声望徽章都有增加，应该是前天回答的问题带来的，进入个人主页查看。</p><p><img src="/../../img/stackoverflow/2023-12-26/WX20231228-223914@2x.png" alt="2023-12-28个人主页"></p><ul><li>解锁新特权<a href="https://stackoverflow.com/help/privileges/chat">talk in chat(聊天室)</a>：解锁要求20声望，聊天室主要用于实时交流及对于较不结构化、随意（但仍然大致与主题相关）的对话</li><li>获得<a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望。</li><li>声望+35</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>stackoverflow</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>stackoverflow</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>StackOverflow之旅</title>
+    <link href="/2023/12/19/stackoverflow%E4%B9%8B%E6%97%85/"/>
+    <url>/2023/12/19/stackoverflow%E4%B9%8B%E6%97%85/</url>
+    
+    <content type="html"><![CDATA[<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>十年前为了凑简历，注册了StackOverflow，Reputation刷到1000就闲置了。现注册账号<a href="https://stackoverflow.com/users/22510112/yubo"><img src="https://stackoverflow.com/users/flair/22510112.png" width="208" height="58" style="display: inline-block;" alt="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>重刷StackOverflow，在这里记录刷题记录。初始账号信息：</p><p><img src="/../img/posts/WX20231219-001122@2x.png" alt="yubo 2023年12月19日信息"></p><p>旧账号声望截图：</p><p><img src="/../img/posts/WX20231219-001924@2x.png" alt="StackOverflow旧账号声望"></p><h1 id="徽章-badge-收集计划"><a href="#徽章-badge-收集计划" class="headerlink" title="徽章(badge)收集计划"></a>徽章(badge)收集计划</h1><p>用户取得特定成就时StackOverflow会为用户颁发徽章，徽章分为金银铜三种类型：</p><ul><li><span class="so-badge so-badge-bronze">青铜徽章</span>：用于鼓励用户使用网站新功能，相对容易获得。</li><li><span class="so-badge so-badge-silver">白银徽章</span>：相对于青铜徽章获取难度更高，需要针对性根据徽章要求制定执行策略以获得。</li><li><span class="so-badge so-badge-gold">黄金徽章</span>：用于奖励对社区有重要贡献的用户，获得难度较高。</li></ul><h2 id="徽章记录"><a href="#徽章记录" class="headerlink" title="徽章记录"></a>徽章记录</h2><ul><li><a href="https://stackoverflow.com/help/badges/2600/informed?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Informed</a>: 阅读全部<a href="https://stackoverflow.com/tour">tour</a>页面。2023-09-06获得。</li><li><a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>: 填写个人简介“自我介绍”。2023-12-20获得。</li><li><a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>：编辑第一个答案，2023-12-26获得。</li><li><a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望,2023-12-27获得。</li><li><a href="https://stackoverflow.com/help/badges/6/supporter?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Supporter</a>徽章：点赞获得,2024-02-27获得。</li><li></li></ul><h1 id="声望（reputation）获取计划"><a href="#声望（reputation）获取计划" class="headerlink" title="声望（reputation）获取计划"></a>声望（reputation）获取计划</h1><p>声望代表你在社区的贡献和地位，声望越高，对应权限越高。</p><p>声望获取方式：</p><ul><li>提问获得一次点赞（voted up）：+10</li><li>回答获得一次点赞：+10</li><li>文章获得一次点赞：+10</li><li>回答被采纳： +15（提问者额外+2）</li><li>建议的编辑被接受：+2（每用户最多+1000）</li><li>悬赏奖励给你的回答：+完整的悬赏金额</li><li>你的回答自动获得了一个悬赏奖励：+悬赏金额的一半</li><li>站点关联奖励：在每个站点上 +100（每个站点最多奖励一次）。</li></ul><p>每天可以通过赞同、反对和建议编辑的组合最多获得200声望分。但悬赏奖励、被接受的回答以及站点关联奖励不受每日声望上限的限制。</p><p>声望扣减条款：</p><ul><li>你的问题被踩（voted down）：−2</li><li>你的回答被踩：−2</li><li>你的文章被踩：−2</li><li>你踩一个他人回答：−1</li><li>你踩一篇文章：−1</li><li>你在一个问题上设立了悬赏：−完整的悬赏金额</li><li>你的帖子收到了6个垃圾或攻击性标记：−100</li></ul><p>声望规则总结起来就是：提出高质量问题或者给出高质量回答，通用问题有机会获得更多声望。</p><h2 id="积分记录"><a href="#积分记录" class="headerlink" title="积分记录"></a>积分记录</h2><p>这里只记录有里程碑意义的积分获得时间，比如第一个积分、第一个主动积分、50、100、500、1000等。</p><ul><li>1：2023-09-06注册获得</li><li>36：2023-12-26第一个回答获得</li></ul><h1 id="流水记录"><a href="#流水记录" class="headerlink" title="流水记录"></a>流水记录</h1><p>这里记录在StackOverflow的日常和故事。</p><h2 id="2023-12-20：开启StackOverflow系列文章-第二个徽章"><a href="#2023-12-20：开启StackOverflow系列文章-第二个徽章" class="headerlink" title="2023-12-20：开启StackOverflow系列文章+第二个徽章"></a>2023-12-20：开启StackOverflow系列文章+第二个徽章</h2><p>确定开启StackOverflow系列文章，搭建本篇文章作为总结+汇总。</p><p>通过填写个人简介“自我介绍”获得<a href="" target="_blank" class="so-badge so-badge-bronze">Autobiographer</a>徽章。</p><h2 id="2023-12-26：第一个回答-第三个徽章"><a href="#2023-12-26：第一个回答-第三个徽章" class="headerlink" title="2023-12-26：第一个回答+第三个徽章"></a>2023-12-26：第一个回答+第三个徽章</h2><p>贡献第一个回答：<a href="https://stackoverflow.com/q/77712519/22510112">Div that expands only upwards and scrolls at max height</a></p><p>编辑答案意外获得<a href="https://stackoverflow.com/help/badges/3/editor?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Editor</a>徽章</p><p>详细记录：<a href="http://yubodevstudio.com/2023/12/26/stackoverflow/2023-12-26%EF%BC%9Astackoverflow%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%9E%E7%AD%94-%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%BE%BD%E7%AB%A0/">2023-12-26: 第一个回答+第三个徽章</a></p><h2 id="2023-12-28-更新声望-徽章"><a href="#2023-12-28-更新声望-徽章" class="headerlink" title="2023-12-28 更新声望+徽章"></a>2023-12-28 更新声望+徽章</h2><ul><li>声望：+35到达36</li><li>徽章：4</li><li>解锁新特权<a href="https://stackoverflow.com/help/privileges/chat">talk in chat(聊天室)</a>：解锁要求20声望，聊天室主要用于实时交流及对于较不结构化、随意（但仍然大致与主题相关）的对话</li><li>获得<a href="https://stackoverflow.com/help/badges/1/teacher?userid=22510112" target="_blank" class="so-badge so-badge-bronze">Teacher</a>徽章：有一个答案获得1或者更多声望。</li></ul><p>详细记录：<a href="http://yubodevstudio.com/2023/12/26/stackoverflow/2023-12-26%EF%BC%9Astackoverflow%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9B%9E%E7%AD%94-%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%BE%BD%E7%AB%A0/">2023-12-28: 记录</a></p><h2 id="2024-01-03：更新声望"><a href="#2024-01-03：更新声望" class="headerlink" title="2024-01-03：更新声望"></a>2024-01-03：更新声望</h2><ul><li>回答：+2到达3</li><li>声望：+25到达61</li><li>徽章：4</li></ul><h2 id="2024-02-27：更新声望"><a href="#2024-02-27：更新声望" class="headerlink" title="2024-02-27：更新声望"></a>2024-02-27：更新声望</h2><ul><li>回答：+2到达5</li><li>声望：+25到达86</li><li>徽章：+1达到5</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>stackoverflow</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的外包项目故事</title>
+    <link href="/2023/10/09/%E6%88%91%E7%9A%84%E5%A4%96%E5%8C%85%E9%A1%B9%E7%9B%AE%E6%95%85%E4%BA%8B/"/>
+    <url>/2023/10/09/%E6%88%91%E7%9A%84%E5%A4%96%E5%8C%85%E9%A1%B9%E7%9B%AE%E6%95%85%E4%BA%8B/</url>
+    
+    <content type="html"><![CDATA[<p>作为一名程序员，心中难免有一个接项目赚外快的想法，这篇文章记录了我的外包项目故事。</p><ol><li>第一个项目是一个被白嫖的故事，12年研究生的时候不能出去实习又想赚外快却没有渠道，去猪八戒网逛了一圈发现一个大学生发布的任务，内容是做课程项目，要求提供设计文档+源代码。价格50，下面很多人喷他说一个文档都不止50，还要写代码。本着开张的原则联系了他，顺利确定合作，当时没谈钱的事情（想着50块也不至于吧）。然后去CSDN等各大资源网站下载了相似功能的项目，写了半天文档发到对方qq邮箱后再也没收到回应。第一次外快之旅就这么结束了，导致我觉得这事情接私活完全不适合我。就这样打消了念头。</li><li>一转眼来到15年，一起在百度实习的同学们都去了各自的公司。其中一个同学去了国企做前端开发，经常给我吐槽手下外包员工技术不行，总是添麻烦，新项目时间紧迫压力很大。我开玩笑说可以把我招进来做外包嘛~她给老板说了之后居然同意了，后面就是提交资料+签合同。我按照接口开发完成提交（smarty + jQuery），她负责联调，基本上都是一次性通过，合作得相当愉快。一个多月后项目上线我也拿到了第一笔外快。</li><li>16年的时候，研究生同学的学妹在澳大利亚留学，接了个前端项目搞不定，辗转之下我来接盘，功能不复杂不过页面比较多（HTML+CSS），几周的加班终于完工。项目做完了她还从本来就不多的经费中提成了一部分，不过这个项目让我第一次赚到了外汇（澳元）。当然这个项目带来新项目就更弥补了我的损失。</li><li>第三个项目合作的后端也是中国留学生，项目结束一段时间后，他说有一个在美国做教授的亲戚要做一个网站，问我做不做，我和工作上合作比较愉快的后端沟通后决定接下来。这个教授找了一个技术很不错的全栈大牛（已拿美国绿卡）来监工，要求前端用React，还给我搭建好了项目框架。项目完成之后教授非常满意，还额外支付了一部分。</li><li>第五个项目是初中同学介绍的，他所在单位要做一个学习类APP。找了阿里设计师同事做设计、阿里APP开发做套壳。自己一个人做了项目经理、产品经理、前端开发、测试、运营，最后拿的钱最少，还差点没收到尾款。不过项目成品还是很满意的，给他配上阿里云OSS+CDN，速度妥妥的，好多客户还以为是原生APP。</li><li>第六个项目是在v2ex发帖，一个美国的客户加了微信，他自己有设计师，我找了阿里后端+APP原班人马给他服务得妥妥的。</li><li>第七个项目也是v2ex发帖后客户加微信，简单的说就是做一个信息管理后台，和后端撸撸完事~</li><li>再后来在水木论坛看到一个招前端的帖子，联系之后顺利以兼职身份参与开发，这是一个研究院的创业项目，后端是老板清华的同学兼职，前端就我一个、设计师、测试都有，终于可以只做前端了。uniapp快速上线，不停迭代，老板也是相当满意。期间也不停给老板评估简历+面试候选人，一年后政策调整项目解散就不提了。</li><li>接下来就是美国全栈大牛登场了。自从之前的项目认识之后经常有交流，他作为合伙人参与了一个创业项目，准备加快项目进度，谈好时薪之后就正式加入团队。之前几个外国项目都是客户直接兑换好人民币转给我，这次是和公司签合同，直接对公账户发美元，自己没有没有美元账户，找了一个学弟帮忙收钱、换钱。前期项目成员都是兼职，有美国的、香港的、新西兰的，每周Google Meeting开一次例会，Slack交流，JIRA管理开发任务，Notion管理文档。后来项目成功拿到天使轮融资，老板找了一个俄罗斯团队加入，俄罗斯团队顺利接手项目之后，老板为了管理方便把我们兼职的都开掉了。</li><li>再后来席总加了我微信，他是后端转前端的全栈大牛，创办<a href="https://qingting.work/about">蜻蜓外包</a>自己接项目组织团队一起完成。跟着他做了很多项目，有表单编辑系统、招投标平台、中国移动营销网站、疫苗系统Chrome插件等等。现在他主要精力集中在自研的<a href="https://runjs.work/">runjs</a>,一个对标CodePen的前端代码在线创作与分享平台。</li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
