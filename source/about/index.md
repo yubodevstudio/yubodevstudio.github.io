@@ -20,7 +20,7 @@ comment: 'waline'
 
 长期承接优质前端项目或兼职，多年远程经验，协作团队成员来自美国、俄罗斯、新西兰、香港等。 更多信息可查看[团队介绍](/about-studio/)
 
-- WeChat:  `yubostudio`
+- WeChat:  `yubodevstudio`
 - Email: [yubodevstudio@gmail.com](mailto:yubodevstudio@gmail.com)
 - Github: [https://github.com/yubodevstudio](https://github.com/yubodevstudio)
 - <a href="https://stackoverflow.com/users/22510112/yubo"><img src="https://stackoverflow.com/users/flair/22510112.png" width="208" height="58" alt="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for yubo at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>

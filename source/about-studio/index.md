@@ -20,7 +20,7 @@ banner_mask_alpha: 0.5
 # 联系方式
 
 - Email: [yubodevstudio@gmail.com](mailto:yubodevstudio@gmail.com)
-- WeChat:  `yubostudio`
+- WeChat:  `yubodevstudio`
 
 # 案例介绍（部分）
 
